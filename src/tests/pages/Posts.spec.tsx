@@ -56,6 +56,7 @@ describe("Posts page", () => {
             excerpt: "Post excerpt",
             updatedAt: '01 de abril de 2021'
           }],
+          revalidate: 1800
         },
       })
     );
