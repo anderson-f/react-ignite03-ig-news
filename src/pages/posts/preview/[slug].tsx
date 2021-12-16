@@ -7,7 +7,7 @@ import { getPrismicClient } from "../../../services/prismic";
 import styles from "../post.module.scss";
 import React from "react";
 import { useEffect } from "react";
-import { useRouter } from "next/dist/client/router";
+import { useRouter } from "next/router";
 import { useSession } from "next-auth/client";
 
 interface PostPreviewProps {
